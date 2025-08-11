@@ -63,7 +63,7 @@ function App() {
                     <label htmlFor='email' style={{ fontSize: '18px', marginBottom: '10px' }}>Email:</label>
                     <input style={{ width: '100%', height: '25px' }} type="email" name="email" id='input-email' value={email} onChange={handleEmailChange} /><br />
                     {userError && (
-                        <small id='user-error' style={{ color: 'red', fontSize: '16px' }}>
+                        <small id='userError' style={{ color: 'red', fontSize: '16px' }}>
                             {userError}
                         </small>
                     )}
@@ -72,7 +72,7 @@ function App() {
                     <label htmlFor='email' style={{ fontSize: '18px', marginBottom: '10px' }}>Password:</label>
                     <input style={{ width: '100%', height: '25px' }} type="password" name="password" id='input-password' value={password} onChange={handlePasswordChange} /><br />
                     {passwordError && (
-                        <small id='password-error' style={{ color: 'red', fontSize: '16px' }}>
+                        <small id='passwordError' style={{ color: 'red', fontSize: '16px' }}>
                             {passwordError}
                         </small>
                     )}
